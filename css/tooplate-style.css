@@ -11,7 +11,7 @@ http://www.tooplate.com/view/2109-the-card
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  color: #ffffff;
+  color: black;
   overflow-x: hidden;
   background: #25332e;
   body margin:2rem;
@@ -638,7 +638,13 @@ figure.effect-goliath:hover p {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
+
+body {
+  font-size: 300px;
+}
+
+{
   .grid {
     max-width: 220px;
   }
@@ -664,6 +670,10 @@ figure.effect-goliath:hover p {
 
 .linktoproject {
   tex
+}
+
+.text-center h1 {
+  font-size: 80px;
 }
 
 
