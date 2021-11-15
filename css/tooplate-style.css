@@ -51,6 +51,7 @@ footer a:link, footer a:visited {
   margin-right: 0;
   margin-left: auto;
   text-align: center;
+  border-radius: 5px;
 }
 
 .tm-navbar-menu:hover {
@@ -58,6 +59,7 @@ footer a:link, footer a:visited {
   border: solid black 1px;
   text-decoration: none;
   background:rgba(0, 0, 0, 0.6);
+ 
 }
 
 .tm-nav {
