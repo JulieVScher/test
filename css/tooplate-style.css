@@ -8,8 +8,7 @@ http://www.tooplate.com/view/2109-the-card
 /* Basic styling and positioning of elements */
 body
  {color:#444;
-  font-size:calc(0.75em + 1vmin);
- }
+  font: size 17px;}
 #some-box {background:#fff;padding:40px 0px 80px;font-family:'Open Sans', sans-serif;}
 #some-box h1 {text-align:center;}
 #some-box h3 {font-size:26px;}
@@ -692,7 +691,7 @@ figure.effect-goliath:hover p {
 @media (max-width: 480px){
 
 body {
-  font-size: 300px;
+  font-size: 17px;
 }
 
 {
@@ -724,7 +723,7 @@ body {
 }
 
 .text-center h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 
