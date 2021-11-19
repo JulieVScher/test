@@ -14,9 +14,8 @@ http://www.tooplate.com/view/2109-the-card
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  color: black;
+  color: #ffffff;
   overflow-x: hidden;
-  background: #25332e;
   body margin:2rem;
 }
 
@@ -62,6 +61,7 @@ footer a:link, footer a:visited {
   border: solid black 1px;
   text-decoration: none;
   background:rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
  
 }
 
@@ -73,6 +73,7 @@ footer a:link, footer a:visited {
 .tm-nav-links {
   list-style: none;
   outline-style: solid black;
+  border-radius: 5px;
 }
 
 .tm-nav-link:link,
@@ -80,6 +81,7 @@ footer a:link, footer a:visited {
   color: black;
   background-color: white;
   border: solid black 1px;
+  border-radius: 5px;
   padding: 10px 40px;
   display: block;
   margin-bottom: 6px;
@@ -165,6 +167,7 @@ footer a:link, footer a:visited {
   display: inline-block;
   margin-right: 75px; 
   max-width: 100%;
+  border-radius: 5px;
 }
 
 .tm-link:focus,
@@ -172,7 +175,8 @@ footer a:link, footer a:visited {
   color: white;
   border: solid black 1px;
   text-decoration: none;
-  background:rgba(0, 0, 0, 0.6);;
+  background:rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
 }
 
 .tm-bottom-container {
@@ -644,12 +648,16 @@ figure.effect-goliath:hover p {
 @media (max-width: 480px){
 
 body {
-  font-size: 3rem;
+  font-size: 20px;
+}
+
+.text-center {
+  font-size: 20px;
 }
 
 {
   .grid {
-    max-width: 640px;
+    max-width: 220px;
   }
 
   .slick-dots {
@@ -663,7 +671,7 @@ body {
   }
 
   .tm-section-title {
-    font-size: 3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -676,7 +684,7 @@ body {
 }
 
 .text-center h1 {
-  font-size: 3rem;
+  font-size: 40px;
 }
 
 
