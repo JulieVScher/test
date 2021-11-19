@@ -26,7 +26,9 @@ a {
 
 footer a:link, footer a:visited {
 	color: #FFF;
+
 }
+
 .tm-text-blue {
   color:white;
 }
@@ -197,6 +199,18 @@ footer {
   font-size: 0.95rem;
   margin-right: 40px;
   line-height: 2;
+}
+
+
+
+.name{
+color: black; 
+display:block; 
+text-align: center; 
+font-size: small; 
+padding: 5px; 
+margin: 0px; 
+font-weight: bold;
 }
 
 /* Image Gallery */
@@ -676,13 +690,10 @@ body {
   padding: 30px;
 }
 
-
-
-
-
   .grid {
     max-width: 640px;
   }
+
 
   .slick-dots {
     position: static;
@@ -697,12 +708,11 @@ body {
   .tm-section-title {
     font-size: 3rem;
   }
-}
+
 
 .tm-static {
   position: static;
 }
-
 
 
 .text-center h1 {
@@ -713,6 +723,15 @@ h1 {
   font-size: 3rem;
 }
 
+.logos {
+font-size: 30px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.name {
+  font-size: 25px;
+}
 
 
 
